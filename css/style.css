@@ -1,3 +1,5 @@
+/* Full screen version */
+
 body {
   margin: 0;
   background-color: 
@@ -133,8 +135,26 @@ nav ul li {
 }     
 /* end */
 
-@media screen and (max-width: 943px) {
-	
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 700px) {
+	/* images */
+  #image1 {
+    display: none;
+  }
+#image2 {
+    display: none;
+  }
+
+#image3 {
+    display: none;
+  }
+
+ 
+
+
+  /* Navigation */
 		.mobile-icon {
 			display: block;
 		}
