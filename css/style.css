@@ -7,8 +7,12 @@ black;
 
 }
 .text {
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FEAE51FF;
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  column-count: 2;
+  column-gap: 30px;
+  tex-align:left;
 }
 
 .banner {
@@ -42,7 +46,7 @@ background-image: url(../images/williehandsome.jpg);
 }
 
 #image3 {
-background-image: url(../images/benferguson.jpg);
+background-image: url(../images/benferguson.png);
  background-size: 100%;
   max-width: 100%;
   height: 400px;
@@ -50,9 +54,11 @@ background-image: url(../images/benferguson.jpg);
 }
 
 footer {
-  width: auto;
+  width: initial;
   background-color: #FEAE51FF;
+  height: 100px;
   padding: 20px;
+
   
 }
 
