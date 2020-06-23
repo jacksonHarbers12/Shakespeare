@@ -12,7 +12,7 @@ black;
   font-size: 18px;
   column-count: 2;
   column-gap: 30px;
-  tex-align:left;
+
 }
 
 .banner {
@@ -23,10 +23,32 @@ black;
 }
 
 section {
-  width: 100%;
+  width: initial;
   background-color:black; 
   margin: auto;
   padding: 100px;
+}
+
+#Richard {
+  display: block;
+  margin: auto;
+  
+}
+
+#Amnesty {
+  display: block;
+  margin: auto;
+}
+
+#perftech {
+  display: block;
+  margin: auto;
+}
+
+#prod1 {
+  display: block;
+  margin:auto;
+}
   
 }
 #image1 {
@@ -157,7 +179,11 @@ nav ul li {
     display: none;
   }
 
- 
+  
+
+ .text {
+   column-count: 1;
+ }
 
 
   /* Navigation */
