@@ -31,6 +31,7 @@ black;
   padding-top: 80px;
 }
 
+
 section {
   width: initial;
   background-color:black; 
@@ -59,7 +60,7 @@ section {
   margin:auto;
 }
   
-}
+
 #image1 {
   background-image: url(../images/shwag.jpg);
   background-size: 100%;
@@ -101,8 +102,6 @@ footer {
 
   
 }
-
-
 
 
 
@@ -152,7 +151,7 @@ nav ul li {
 }
 
  nav a:hover {
-	color: orange;
+	color: white;
 }
 /* Mobile navigation */
 .mobile-icon {
@@ -160,7 +159,7 @@ nav ul li {
 	text-align: right;
 	box-sizing: border-box;
 	cursor: pointer;
-	color: #ffa809;
+	color: #FEAE51FF ;
 	display: none;
 	font-size: 20px;
 	font-family: bold;
@@ -176,35 +175,13 @@ nav ul li {
 	top: 0.2em;
 	width: 1.2em;
 	height: 0.16em;
-	background: #ffa809;
-	box-shadow: 0 0.35em 0 0 #ffa809, 0 0.7em 0 0 #ffa809;
+	background: #FEAE51FF;
+	box-shadow: 0 0.35em 0 0 #FEAE51FF, 0 0.7em 0 0 #FEAE51FF;
 }     
 /* end */
 
-
-/* MOBILE VERSION */
-
-@media screen and (max-width: 700px) {
-	/* images */
-  #image1 {
-    display: none;
-  }
-#image2 {
-    display: none;
-  }
-
-#image3 {
-    display: none;
-  }
-
-  
-
- .text {
-   column-count: 1;
- }
-
-
-  /* Navigation */
+@media screen and (max-width: 943px) {
+	
 		.mobile-icon {
 			display: block;
 		}
@@ -236,7 +213,7 @@ nav ul li {
 		nav ul li:hover {
 			background-color: #FEAE51FF;
 			width: 100%;
-        color: pink;
+        color: white;
 		}
 
 		.nav-bar {
@@ -245,6 +222,26 @@ nav ul li {
 }
 
 
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 700px) {
+	/* images */
+  #image1 {
+    display: none;
+  }
+#image2 {
+    display: none;
+  }
+
+#image3 {
+    display: none;
+  }
+
+
+ .text {
+   column-count: 1;
+ }
 
 		
 
