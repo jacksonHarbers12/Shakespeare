@@ -24,13 +24,19 @@ black;
 
 }
 
-.banner {
+.banner1 {
   max-width: 100%;
   display: block;
   margin: auto;
   padding-top: 80px;
 }
 
+.banner2 {
+  max-width: 100%;
+  display: none;
+  margin: auto;
+  padding-top: 20px;
+}
 
 section {
   width: initial;
@@ -180,7 +186,7 @@ nav ul li {
 }     
 /* end */
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 700px) {
 	
 		.mobile-icon {
 			display: block;
@@ -242,7 +248,20 @@ nav ul li {
  .text {
    column-count: 1;
  }
+ 
+.banner1 {
+  display: none;
+}
 
-		
+.banner2 {
+  display: block;
+}
+
+ 
+
+
+
+
+
 
 
